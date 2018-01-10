@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="/images/xj.jpeg"></image>
+    <text class="userinfo-nickname">点击扫码</text>
+    <text>{{barcode}}</text>
+  </view>
+</view>

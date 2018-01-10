@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/productionmang/productionmang"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "晨申货品管理",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "position":"top",
+    "list":[{
+    "pagePath":"pages/index/index",
+    "text":"首页",
+    "iconPath":"images/xj.jpeg",
+    "selectedIconPath":"images/xj.jpeg"
+    },{
+    "pagePath": "pages/productionmang/productionmang",
+    "text": "产品维护",
+    "iconPath": "images/xj.jpeg",
+    "selectedIconPath": "images/xj.jpeg"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "扫码",
+      "iconPath": "images/xj.jpeg",
+      "selectedIconPath": "images/xj.jpeg"
+    }
+
+    ]
+  }
+}
