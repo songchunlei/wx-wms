@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/productionmang/productionmang"
+    "pages/productionmang/productionmang",
+    "pages/my/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -24,8 +25,8 @@
     "selectedIconPath": "images/xj.jpeg"
     },
     {
-      "pagePath": "pages/index/index",
-      "text": "扫码",
+      "pagePath": "pages/my/index",
+      "text": "我的",
       "iconPath": "images/xj.jpeg",
       "selectedIconPath": "images/xj.jpeg"
     }
